@@ -1,15 +1,21 @@
 #include <iostream>
 using namespace std;
-int main () {
+int main()
+{
+
     int n;
-    cout << "Enter a number: " << endl;
+
+    cout << "Enter number :" << endl;
     cin >> n;
 
-    if(n % 2 == 0){
-        cout << n << " is an even number " << endl;
+    if (n % 2 == 0)
+    {
+        cout << "Even";
     }
-    else{
-        cout << n << " is an odd number " << endl;
+    else
+    {
+        cout << "Odd";
     }
+
     return 0;
 }
